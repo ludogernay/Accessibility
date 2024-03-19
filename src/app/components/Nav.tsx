@@ -1,8 +1,15 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Nav() {
   return (
-    <div className='text-white'>Nav</div>
+    <nav className='h-full'>
+      <ul className='text-white justify-around flex items-center h-full'>
+        <li><Link href={'https://google.fr'} target='blank'>Home</Link></li>
+        <li><Link href={'https://google.fr'} target='blank'>About</Link></li>
+        <li><Link href={'https://twitch.com'} target='blank'>Contact</Link></li>
+      </ul>
+    </nav>
   )
 }
 
