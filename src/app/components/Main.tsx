@@ -1,8 +1,11 @@
 import React from 'react'
+import Product from './Product'
 
 function Main() {
   return (
-    <div className='h-[calc(100vh-10rem)]'></div>
+    <main className='h-[calc(100vh-10rem)]'>
+      <Product/>
+    </main>
   )
 }
 
