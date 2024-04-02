@@ -7,7 +7,7 @@ function Nav() {
       <ul className='text-white justify-around flex items-center h-full'>
         <li><Link href={'https://google.fr'} target='blank'>Home</Link></li>
         <li><Link href={'https://google.fr'} target='blank'>About</Link></li>
-        <li><Link href={'https://twitch.com'} target='blank'>Contact</Link></li>
+        <li><Link href={'/contact'} target='blank'>Contact</Link></li>
       </ul>
     </nav>
   )
