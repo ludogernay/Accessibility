@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={twMerge(inter.className,'bg-chadground bg-center bg-cover')}>{children}</body>
+      <body className={twMerge(inter.className,'h-auto bg-chadground bg-center bg-cover')}>{children}</body>
     </html>
   );
 }

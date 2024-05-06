@@ -38,10 +38,12 @@ function Form() {
             <label className='text-white pt-5'>Email</label>
             <input className='' type='email' onChange={handleEmail}/>
             <p className='text-red-600 mt-0' id='emailError'></p>
+            <label className='text-white pt-5'>Date de naissance</label>
+            <input className='' type='date'/>
             <label className='text-white pt-5'>Message</label>
             <textarea className='' onChange={handleMessage}/>
             <p className='text-red-600 mt-0' id='messageError'></p>
-            <button className='bg-blue-500 text-white p-2'>Submit</button>
+            <button className='bg-blue-500 text-white mt-10 rounded-lg'>Submit</button>
         </form>
     </div>
   )

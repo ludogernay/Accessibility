@@ -1,4 +1,5 @@
 import React from 'react'
+import Description from './Description'
 
 export default function Product() {
   return (
@@ -10,6 +11,7 @@ export default function Product() {
         <track src='/EldenRing-fr.vtt' kind='subtitles' srcLang='fr' label='Français'/>
         Your browser does not support the video tag.
       </video>
+      <Description />
     </div>
   )
 }
